@@ -12,6 +12,10 @@ body {
   min-height: 100vh;
   overflow: hidden;
 }
+h3 {
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+}
 .planet {
   display: flex;
   flex-direction: column;
@@ -21,6 +25,7 @@ body {
   font-size: 4em;
   margin-bottom: 40px;
   font-weight: 600;
+  margin-top: -3rem;
 }
 .planet .container {
   width: 100%;
@@ -124,7 +129,9 @@ body {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-
+.planetMars h3 {
+  color: #00ff00;
+}
 .planetMars {
   position: relative;
   min-width: 50%;
